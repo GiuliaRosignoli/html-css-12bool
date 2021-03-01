@@ -1,0 +1,39 @@
+/* BONUS */
+
+body {
+    min-height: 100vh;
+    padding: 4rem 0;
+    background-color: black;
+}
+
+.box {
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(90, 60, 131, 0.5);
+    border: 2px solid rgba(90, 60, 131, 0.5);
+}
+
+/* ALTERNATIVE COLUMNS */
+
+.col-0.5 {
+    width: 50%;
+}
+
+  
+.black {
+    padding: 20px;
+    background-color: black;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/51LGP9s5rbL._AC_.jpg");
+    background-size: cover;
+    background-position: top;
+}
+
+ .middle {
+    background-position: center;   
+    transition: transform 4s ease-in-out;
+}
+
+.middle:hover {
+   transform: scale(8);
+}
+
